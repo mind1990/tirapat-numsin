@@ -1,4 +1,4 @@
-<h1>project-0 - Personal Website</h1>
+<h1>Project-0 - Personal Website</h1>
 First Project for General Assembly's Web Development Immersive
 
 <h2>Technologies used</h2>
