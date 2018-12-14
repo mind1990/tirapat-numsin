@@ -21,4 +21,4 @@ After many tries and fails I was able to make my website to be responsive using 
 I was having a hard time deciding how should my website look and what features to implement since this is out first project.
 
 <h2>Planned Implementation</h2>
-I'm planning to rebuild this website using React and also style it useing Sass.
+I'm planning to rebuild this website using React and also style it with Sass.
