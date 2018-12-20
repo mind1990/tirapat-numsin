@@ -3,107 +3,102 @@
 
 <head>
 	<meta charset="UTF-8">
-	<title>Tirapat Numsinvichietchai</title>
-
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
 	 crossorigin="anonymous">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles/normalize.css">
+	<link rel="stylesheet" type="text/css" href="styles/grid.css">
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<title>Tirapat Numsinvichietchai</title>
 </head>
 
 <body>
 	<header class="header">
-		<div class="header__text-box">
+		<div class="header-text-box">
 			<h1 class="heading-primary">
-				<span class="heading-primary--main">Tirapat Numsinvichietchai</span>
-				<span class="heading-primary--sub">Web Developer</span>
+				<span class="heading-primary-main">Tirapat Numsinvichietchai</span>
+				<span class="heading-primary-sub">Web Developer</span>
 			</h1>
-
-			<a href="#" class="btn btn--white btn--animated">My projects</a>
+			<a href="#" class="btn btn-white btn-animated">My projects</a>
 		</div>
-
 	</header>
-
-
-
-
 	<nav>
-		<div id="links">
-			<ul>
+		<div class="row">
+			<ul class="main-nav">
 				<li><a class="toplink" href="#About Me">About Me</a></li>
-				|
 				<li><a class="toplink" href="#Projects">Projects</a></li>
-				|
 				<li><a class="toplink" href="#Skills">Skills</a></li>
-				|
 				<li><a class="toplink" href="#Contact">Contact</a></li>
 			</ul>
 		</div>
 	</nav>
-	<div id="body-div">
-		<div class="heading">
-			<h3 id="About Me">About Me</h3>
-		</div>
-		<div class=" row ">
-			<main id="main-container ">
-				<p>
-					I'm always looking to learn new skills, thrived to be successful using the skills I learned both at General Assembly and
-					on my own, but my journey does not stop here. I hope to extend my knowledge in both frontend and backend to be a all-rounded
-					web developer in the future.</p>
-			</main>
-		</div>
-		<div class="heading">
-			<h3 id="Projects">Projects</h3>
-		</div>
-		<div class="row ">
-			<main id="main-container ">
-				<h2>ScrapBook</h2>
-				<p>ScrapBook is an app to let users upload their favorite photos on a timeline</p>
-				<p><a href="http://ptm-project.herokuapp.com">Heroku link</a></p>
-				<p><a href="https://github.com/mind1990/scrapbook">Github link</a></p>
+	<div class="the-wrapper">
+		<div class="body-div">
+			<div class="heading">
+				<h3 id="About Me">About Me</h3>
+			</div>
+			<div class="row">
+				<main class="main-container">
+					<img src="images/myheadshot.jpeg" alt="myheadshot" class="logo">
+					<p>
+						I'm always looking to learn new skills, thrived to be successful using the skills I learned both at General Assembly and
+						on my own, but my journey does not stop here. I hope to extend my knowledge in both frontend and backend to be a all-rounded
+						web developer in the future.</p>
+				</main>
+			</div>
+			<div class="heading">
+				<h3 id="Projects">Projects</h3>
+			</div>
+			<div class="row">
+				<main class="main-container">
+					<h2>ScrapBook</h2>
+					<p>ScrapBook is an app to let users upload their favorite photos on a timeline</p>
+					<p><a href="http://ptm-project.herokuapp.com">Heroku link</a></p>
+					<p><a href="https://github.com/mind1990/scrapbook">Github link</a></p>
 
-				<h2>Beemer Boys</h2>
-				<p></p>
-				<p>Beemer Boys is a website to sell BMW vintage motorcycles</p>
-				<p><a href="https://beemer-boys.herokuapp.com">Heroku link</a></p>
-				<p><a href="https://github.com/blahahaha13/project-2">Github link</a></p>
+					<h2>Beemer Boys</h2>
+					<p></p>
+					<p>Beemer Boys is a website to sell BMW vintage motorcycles</p>
+					<p><a href="https://beemer-boys.herokuapp.com">Heroku link</a></p>
+					<p><a href="https://github.com/blahahaha13/project-2">Github link</a></p>
 
-				<h2>Wayfarer</h2>
-				<p>Wayfarer is a website for users to comment about places they have traveled to</p>
-				<p><a href="https://github.com/mind1990/wayfarer-frontend">Github client code</a></p>
-				<p><a href="https://github.com/mind1990/twitbook-backend">Github server code</a></p>
+					<h2>Wayfarer</h2>
+					<p>Wayfarer is a website for users to comment about places they have traveled to</p>
+					<p><a href="https://github.com/mind1990/wayfarer-frontend">Github client code</a></p>
+					<p><a href="https://github.com/mind1990/twitbook-backend">Github server code</a></p>
 
-				<h2>Twitbook</h2>
-				The fifth and individual project for General Assembly's Web Development Immersive. Twitbook is an app to let users to sign
-				up, edit profile, post(twit), like, unlike and comment other users'posts.
-				<p><a href="https://github.com/mind1990/twitbook-frontend">Github client code</a></p>
-				<p><a href="https://github.com/mind1990/twitbook-backend">Github server code</a></p>
-			</main>
-		</div>
-		<div class="heading">
-			<h3 id="Skills">Skills</h3>
-		</div>
-		<div class="row ">
-			<main id="main-container ">
-				<p>HTML, CSS, Javascript, Bootstrap, jQuery React, Redux, MongoDB, Express, Node.js, Python, Django</p>
-			</main>
-		</div>
-		<div class="heading ">
-			<h3 id="Contact">Contact</h3>
-		</div>
-		<div class="wrap ">
-			<div class="social-links ">
-				<a href="https://www.facebook.com/mind1990 "><i class="fa fa-facebook-square " aria-hidden="true "></i></a>
-				<a href="https://github.com/mind1990 "><i class="fa fa-github-square " aria-hidden="true "></i></a>
-				<a href="https://www.linkedin.com/in/tirapat-numsin/"><i class="fa fa-linkedin-square " aria-hidden="true "></i></a>
+					<h2>Twitbook</h2>
+					The fifth and individual project for General Assembly's Web Development Immersive. Twitbook is an app to let users to sign
+					up, edit profile, post(twit), like, unlike and comment other users'posts.
+					<p><a href="https://github.com/mind1990/twitbook-frontend">Github client code</a></p>
+					<p><a href="https://github.com/mind1990/twitbook-backend">Github server code</a></p>
+				</main>
+			</div>
+			<div class="heading">
+				<h3 id="Skills">Skills</h3>
+			</div>
+			<div class="row">
+				<main class="main-container">
+					<p>HTML, CSS, Javascript, Bootstrap, jQuery React, Redux, MongoDB, Express, Node.js, Python, Django</p>
+				</main>
+			</div>
+			<div class="heading">
+				<h3 id="Contact">Contact</h3>
+			</div>
+			<div class="wrap">
+				<div class="social-links">
+					<a href="https://www.facebook.com/mind1990"><i class="fa fa-facebook-square " aria-hidden="true "></i></a>
+					<a href="https://github.com/mind1990"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+					<a href="https://www.linkedin.com/in/tirapat-numsin/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+				</div>
 			</div>
 		</div>
 	</div>
-	<footer>
-		<p class="copyright ">&copy;2018 Tirapat Numsinvichietchai</p>
+	<footer class="footer">
+		<p class="copyright">&copy;2018 Tirapat Numsinvichietchai</p>
 	</footer>
-	<script type="text/javascript " src="scripts/main.js "></script>
+	<script type="text/javascript" src="scripts/main.js"></script>
 </body>
 
 </html>
