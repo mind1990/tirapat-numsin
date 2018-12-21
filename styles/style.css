@@ -250,6 +250,28 @@ header {
   border-bottom: 0.2rem solid #000;
 }
 
+.footer-nav li {
+  display: inline-block;
+  list-style: none;
+  
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited {
+  font-size: 4rem;
+  margin: 0 2rem;
+  text-decoration: none;
+  color: #000;
+  margin-bottom: 2rem;
+  border-bottom: 0.2rem solid transparent;
+  transition: border-bottom 0.5s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+  border-bottom: 0.2rem solid #000;
+}
+
 /* ---------------------------------------------------- */
 /* FOOTER */
 /* ---------------------------------------------------- */
@@ -270,6 +292,17 @@ footer p {
   margin: 0;
 }
 
+
+
+
+  margin: 0 3rem;
+  font-size: 4rem;
+  color: #000;
+}
+
+.copyright {
+  color: #fff;
+}
 
 
 /* ---------------------------------------------------- */
