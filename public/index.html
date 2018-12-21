@@ -8,7 +8,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="styles/normalize.css">
-	<link rel="stylesheet" type="text/css" href="styles/grid.css">
+	<!-- <link rel="stylesheet" type="text/css" href="styles/grid.css"> -->
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
 	<title>Tirapat Numsinvichietchai</title>
 </head>
@@ -24,7 +24,7 @@
 		</div>
 	</header>
 	<nav>
-		<div class="row">
+		<div class="nav">
 			<ul class="main-nav">
 				<li><a class="toplink" href="#About Me">About Me</a></li>
 				<li><a class="toplink" href="#Projects">Projects</a></li>
@@ -34,71 +34,103 @@
 		</div>
 	</nav>
 	<div class="the-wrapper">
-		<div class="body-div">
-			<div class="heading">
-				<h3 id="About Me">About Me</h3>
-			</div>
-			<div class="row">
-				<main class="main-container">
-					<img src="images/myheadshot.jpeg" alt="myheadshot" class="logo">
-					<p>
-						I'm always looking to learn new skills, thrived to be successful using the skills I learned both at General Assembly and
-						on my own, but my journey does not stop here. I hope to extend my knowledge in both frontend and backend to be a all-rounded
-						web developer in the future.</p>
-				</main>
-			</div>
-			<div class="heading">
-				<h3 id="Projects">Projects</h3>
-			</div>
-			<div class="row">
-				<main class="main-container">
-					<h2>ScrapBook</h2>
-					<p>ScrapBook is an app to let users upload their favorite photos on a timeline</p>
-					<p><a href="http://ptm-project.herokuapp.com">Heroku link</a></p>
-					<p><a href="https://github.com/mind1990/scrapbook">Github link</a></p>
 
-					<h2>Beemer Boys</h2>
-					<p></p>
-					<p>Beemer Boys is a website to sell BMW vintage motorcycles</p>
-					<p><a href="https://beemer-boys.herokuapp.com">Heroku link</a></p>
-					<p><a href="https://github.com/blahahaha13/project-2">Github link</a></p>
-
-					<h2>Wayfarer</h2>
-					<p>Wayfarer is a website for users to comment about places they have traveled to</p>
-					<p><a href="https://github.com/mind1990/wayfarer-frontend">Github client code</a></p>
-					<p><a href="https://github.com/mind1990/twitbook-backend">Github server code</a></p>
-
-					<h2>Twitbook</h2>
-					The fifth and individual project for General Assembly's Web Development Immersive. Twitbook is an app to let users to sign
-					up, edit profile, post(twit), like, unlike and comment other users'posts.
-					<p><a href="https://github.com/mind1990/twitbook-frontend">Github client code</a></p>
-					<p><a href="https://github.com/mind1990/twitbook-backend">Github server code</a></p>
-				</main>
+		<div class="col">
+			<!-- <section class="col about"> -->
+			<h2>About Me</h2>
+			<img src=" images/myheadshot.jpeg " alt="myheadshot " class="logo ">
+			<p>
+				I'm always looking to learn new skills, thrived to be successful using the skills I learned both at General Assembly and
+				on my own, but my journey does not stop here. I hope to extend my knowledge in both frontend and backend to be a all-rounded
+				web developer in the future.</p>
+			<hr>
+		</div>
+		<h2>Projects</h2>
+		<div class="col span-1-of-4">
+			<h3>ScrapBook</h3>
+			<img src="images/scrapbook.jpg" class="photo">
+			<div class="col">
+				<p>ScrapBook is an app to let users upload their favorite photos on a timeline</p>
+				<p>Technology used: HTML5, CSS3, Javascript, Bootstrap, Font-Awesome, Google Fonts, jQuery, modernizr, Express, Mongoose,
+					Youtube API for videos on user profile, Google Maps API, Passport.js for authentication.
+				</p>
+				<ul class="project-nav">
+					<li><a href="http://ptm-project.herokuapp.com">Heroku link</a></li>
+					<li><a href="https://github.com/mind1990/scrapbook">Github link</a></li>
+				</ul>
+				<hr>
 			</div>
-			<div class="heading">
-				<h3 id="Skills">Skills</h3>
+			<div class="col span-1-of-4">
+				<h3>Panthera</h3>
+				<img src="images/panthera.jpg" class="photo">
+				<p>Panthera is a pet store website built as a two-days hackathon project of Web Development Immersive and User Experience
+					Design Immersive students. Our group was designated to design a simple webpage using HTML5 and CSS as coding languages
+					and Sketch for wireframes</p>
+				<p>Technology used: </p>
+				<ul class="project-nav">
+					<li><a href="https://github.com/mind1990/uxdiwdi-collab-athon">Github link</a></li>
+				</ul>
+				<hr>
 			</div>
-			<div class="row">
-				<main class="main-container">
-					<p>HTML, CSS, Javascript, Bootstrap, jQuery React, Redux, MongoDB, Express, Node.js, Python, Django</p>
-				</main>
+			<div class="col span-1-of-4 ">
+				<h3>Beemer Boys</h3>
+				<img src="images/beemer_boys.jpg" class="photo">
+				<p>Beemer Boys is a website to sell BMW vintage motorcycles where users can sign up, login then view the bikes and their
+					descriptions then purchase with credit card.</p>
+				<p>Technology used: Django, Python, Stripe Api, Javascript, Html, Css, Heroku, Chrome developer tool, postgres.</p>
+				<ul class="project-nav">
+					<li><a href="https://beemer-boys.herokuapp.com">Heroku link</a></li>
+					<li><a href="https://github.com/blahahaha13/project-2">Github link</a></li>
+				</ul>
+				<hr>
 			</div>
-			<div class="heading">
-				<h3 id="Contact">Contact</h3>
+			<div class="col span-1-of-4 ">
+				<h3>Wayfarer</h3>
+				<img src="images/wayfarer3.jpg" class="photo">
+				<p>Wayfarer is an app built using the MERN stack (Mongoose, Express, React, Node.js). Users can provide travel/tourist
+					tips for cities included within the app. The app is a specific demonstration of CRUD methods and state management across
+					a multi-page application.</p>
+				<p>Technology used: </p>
+				<ul class="project-nav">
+					<li><a href="https://github.com/mind1990/wayfarer-frontend">Github client code</a></li>
+					<li><a href="https://github.com/mind1990/wayfarer-backend">Github server code</a>
+					</li>
+				</ul>
+				<hr>
 			</div>
-			<div class="wrap">
-				<div class="social-links">
-					<a href="https://www.facebook.com/mind1990"><i class="fa fa-facebook-square " aria-hidden="true "></i></a>
-					<a href="https://github.com/mind1990"><i class="fa fa-github-square" aria-hidden="true"></i></a>
-					<a href="https://www.linkedin.com/in/tirapat-numsin/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-				</div>
+			<div class="col span-1-of-4 ">
+				<h3>Twitbook</h3>
+				<img src="images/twitbook.jpg" class="photo">
+				<p>Twitbook is an individual project for General Assembly's Web Development Immersive. Twitbook is an app to let users
+					to sign up, edit profile, post(twit), like, unlike and comment other users posts.</p>
+				<p>Technology used: React.js, Express.js, MongoDB, Node.js, Gravatar, Bootstrap, Axios, mLab and JWT Web Token.
+				</p>
+				<ul class="project-nav">
+					<li><a href="https://github.com/mind1990/twitbook-frontend">Github client code</a></li>
+					<li><a href="https://github.com/mind1990/twitbook-backend">Github server code</a></li>
+				</ul>
+				<hr>
 			</div>
 		</div>
+		<div class="col">
+			<h2>Skills</h2>
+			<a id="resume" href="https://drive.google.com/open?id=1mknaw8gMHEoTtKGLvet1E7DRB23UXbUl">My resume</a>
+		</div>
+		<p><strong>Front End:</strong> JavaScript, HTML5, CSS3, jQuery, React, Bootstrap</p>
+		<p><strong>Back End:</strong> Node.js, Express.js, MongoDB, Mongoose, Gravatar, JWT Web Token</p>
+		<p><strong>Development:</strong> Git, Github, Heroku, Firebase, mLab</p>
 	</div>
-	<footer class="footer">
-		<p class="copyright">&copy;2018 Tirapat Numsinvichietchai</p>
-	</footer>
-	<script type="text/javascript" src="scripts/main.js"></script>
+</body>
+<!-- </section> -->
+<!-- <section class="col project "> -->
+
+<!-- </section> -->
+</div>
+</div>
+<footer class="footer ">
+	<p class="copyright ">&copy;2018 Tirapat Numsinvichietchai</p>
+</footer>
+<script type="text/javascript " src="scripts/main.js "></script>
 </body>
 
 </html>
