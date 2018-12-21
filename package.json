@@ -3,16 +3,11 @@
   "version": "1.0.0",
   "description": "<h1>Project-0 - Personal Website</h1> First Project for General Assembly's Web Development Immersive",
   "main": "index.js",
-  "scripts": {
-    "compile:sass": "node-sass sass/main.scss public/styles/style.css -w"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mind1990/tirapat-numsin.git"
   },
   "author": "Tirapat Numsinvichietchai",
   "license": "ISC",
-  "devDependencies": {
-    "node-sass": "^4.11.0"
-  }
 }
