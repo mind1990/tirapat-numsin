@@ -87,14 +87,9 @@ body {
 
 .header {
   height: 100vh;
-  background-image: linear-gradient(
-    to right bottom, 
-    rgba(9, 81, 168, 0.8), 
-    rgba(0, 0, 0, 0.8)), 
-    url(../../public/images/code.jpg);
+  background-image: url(../../public/images/hero.jpg);
   background-size: cover;
   background-position: center;
-  /* clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 50% 100%, 50% 75%, 0% 75%);  */
 }
 
 .header-text-box {
