@@ -130,6 +130,10 @@ header {
   animation: moveInRight 1s ease-out; 
 }
 
+/* ---------------------------------------------------- */
+/* MAIN NAV */
+/* ---------------------------------------------------- */
+
 .main-nav {
   background-color: #000;
   padding: 2rem 0;
@@ -158,6 +162,23 @@ header {
 .main-nav li a:hover,
 .main-nav li a:active {
   border-bottom: 0.2rem solid #fff;
+}
+
+/* ---------------------------------------------------- */
+/* STICKY NAV */
+/* ---------------------------------------------------- */
+
+section {
+  padding-top: 7rem;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  margin-bottom: 4rem;
+  /* left: 0; */
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.98);
 }
 
 /* ---------------------------------------------------- */
@@ -253,7 +274,7 @@ header {
 .footer-nav li {
   display: inline-block;
   list-style: none;
-  
+  margin-top: 5rem;
 }
 
 .footer-nav li a:link,
@@ -262,7 +283,7 @@ header {
   margin: 0 2rem;
   text-decoration: none;
   color: #000;
-  margin-bottom: 2rem;
+  
   border-bottom: 0.2rem solid transparent;
   transition: border-bottom 0.5s;
 }
@@ -285,19 +306,11 @@ header {
   padding: 2rem 0;
   width: 100%;
   bottom: 0;
-  margin-top: 50px;
+  margin-top: 8rem;
 }
 
 footer p {
   margin: 0;
-}
-
-
-
-
-  margin: 0 3rem;
-  font-size: 4rem;
-  color: #000;
 }
 
 .copyright {
