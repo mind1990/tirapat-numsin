@@ -395,6 +395,7 @@ h5 {
 hr {
   width: 100%;
   margin: 40px 0;
+  border: 1px solid #f1f1f1;
 }
 
 p {
