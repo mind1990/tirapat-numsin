@@ -186,12 +186,13 @@ section {
 /* ---------------------------------------------------- */
 
 .the-wrapper {
-
+  /* width: 50%; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100%;
+  width: auto;
 }
 
 .body-div {
@@ -419,4 +420,26 @@ p {
   justify-content: center;
   align-items: center;
   margin: 3rem;
+}
+
+@media only screen and (max-width: 805px) {
+  .col {
+    width: 65rem;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .col {
+    width: 55rem;
+  }
+}
+
+@media only screen and (max-width: 577px) {
+  .col {
+    width: 45rem;
+    left: 0;
+  }
+  .heading-primary-main {
+    font-size: 3rem;
+  }
 }
