@@ -21,6 +21,7 @@ body {
   color: #777;
   box-sizing: border-box;
   font-size: 1.6rem;
+  background-color: #F2F2F2;
 }
 
 /* ---------------------------------------------------- */
@@ -193,6 +194,7 @@ section {
   align-items: center;
   height: 100%;
   width: auto;
+  background-color: #F2F2F2;
 }
 
 .body-div {
